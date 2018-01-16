@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>API Itsaya</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<div class="header">
+			<input type="text" id="searchKey"/>
+			<button id="btnSearch">Buscar</button>
+			<button id="btnAdd">Nuevo</button>
+		</div>
+		<div class="leftArea">
+			<ul id="modeloList"></ul>
+		</div>
+		<form id="modeloForm">
+			<div class="mainArea">
+				<label>Id:</label>
+				<input id="modeloId" name="id" type="text" disabled />
+				<label>Nombre:</label>
+				<input type="text" id="nombre" name="nombre" required>
+				<label>Ruta:</label>
+				<input type="text" id="ruta" name="ruta"/>
+				<label>Categoría:</label>
+				<input type="text" id="categoria" name="categoria"/>
+				<label>Negocio:</label>
+				<input type="text" id="negocio" name="negocio"/>
+				<button id="btnSave">Guardar</button>
+				<button id="btnDelete">Eliminar</button>
+			</div>
+		</form>
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
